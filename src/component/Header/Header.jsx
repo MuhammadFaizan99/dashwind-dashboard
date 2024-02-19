@@ -51,9 +51,10 @@ export default function Header() {
         <Drawer
           anchor="right"
           open={isMenuOpen}
-          style={{ width: "300px" }}
+          // style={{ width: "300px" }}
           onClose={toggleMenu}
         >
+          <div className={HeaderStyles.DrawerNavItems} style={{"margin" : "10px 50px"}}>
           <List>
             <ListItem button component={Link} to="/">
               <ListItemText primary="Home" />
@@ -65,6 +66,7 @@ export default function Header() {
               <ListItemText primary="About" />
             </ListItem>
           </List>
+          </div>
           {windowWidth <= 700 && (
             <div className={HeaderStyles.buttons}>
               <Button variant="contained" color="primary">
