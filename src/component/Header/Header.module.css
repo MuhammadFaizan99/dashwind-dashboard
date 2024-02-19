@@ -77,9 +77,6 @@
     .hamburgerMenu {
         display: block;
     }
-    .navItems {
-        margin: 10px 50px;
-    }
     .buttons {
         flex-direction: column;
         margin: 10px 50px;
