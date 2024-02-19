@@ -80,7 +80,7 @@
 
     .buttons {
         flex-direction: column;
-        margin: 10px;
+        margin: 10px 50px;
     }
 }
 
