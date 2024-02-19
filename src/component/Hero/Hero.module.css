@@ -70,6 +70,6 @@
 
     .heading {
         font-size: 1.7rem;
-        text-align: center;
+        padding: 10px;
     }
 }
