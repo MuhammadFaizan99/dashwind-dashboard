@@ -1,0 +1,121 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border-top: 1px solid #333;
+    margin-top: auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.mailingList,
+.siteMap,
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mailingListTitle {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.mailingListSubtitle {
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #aaa;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.mailingListInner {
+    display: flex;
+    width: 100%;
+    font-weight: 400;
+}
+
+.emailInput {
+    flex-grow: 1;
+    color: #aaa;
+    background-color: transparent;
+    border: 2px solid #aaa;
+    padding: 15px;
+    outline: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.subscribeButton {
+    padding: 15px;
+    background-color: transparent;
+    color: #aaa;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s ease;
+    font-weight: 400;
+}
+
+.subscribeButton:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+.siteMapTitle,
+.socialMediaTitle {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.siteMapLink,
+.socialMediaLink {
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    font-weight: 400;
+}
+
+.siteMapLink:hover,
+.socialMediaLink:hover {
+    color: #f2f2f2;
+}
+
+/* Responsive styles */
+@media (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .mailingList,
+    .siteMap,
+    .socialMedia {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .mailingListInner {
+        flex-direction: column;
+    }
+
+    .emailInput,
+    .subscribeButton {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subscribeButton {
+        margin-left: 0;
+    }
+}

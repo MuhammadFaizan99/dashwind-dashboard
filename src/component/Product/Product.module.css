@@ -1,0 +1,131 @@
+.mainProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: auto;
+    margin: 40px auto;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    display: flex;
+    padding: 15px;
+}
+
+.topQuote,
+.bottomQuote {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin: 20px 0;
+    width: 80%;
+}
+
+.imageContainer {
+    flex: none;
+    width: 50%;
+}
+
+.productImage {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.infoContainer {
+    flex: none;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 20px;
+    color: #666;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.membership {
+    font-size: 14px;
+    color: #888;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.notice {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.descriptionBlock {
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+}
+
+.shipping {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.shippingNotice {
+    font-size: 14px;
+    color: #666;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+/* Responsive styles for widths less than 700px */
+
+@media (max-width: 700px) {
+    .mainProduct {
+        box-shadow: none;
+    }
+
+    .mainProduct {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .product {
+
+        flex-direction: column;
+    }
+
+    .imageContainer,
+    .infoContainer {
+        width: 100%;
+    }
+
+    .productImage {
+        height: auto;
+    }
+
+    .topQuote,
+    .bottomQuote {
+        width: 100%;
+    }
+}
