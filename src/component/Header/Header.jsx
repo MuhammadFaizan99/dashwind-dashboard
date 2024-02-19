@@ -42,7 +42,7 @@ export default function Header() {
             }`}
           >
             <Link to="/">Home</Link>
-            <Link to="/">Blog</Link>
+            <Link to="/blog">Blog</Link>
             <Link to="/about">About</Link>
           </div>
         )}
@@ -55,13 +55,13 @@ export default function Header() {
           onClose={toggleMenu}
         >
           <List>
-            <ListItem button>
+            <ListItem button component={Link} to="/">
               <ListItemText primary="Home" />
             </ListItem>
-            <ListItem button>
+            <ListItem button component={Link} to="/blog">
               <ListItemText primary="Blog" />
             </ListItem>
-            <ListItem button>
+            <ListItem button component={Link} to="/about">
               <ListItemText primary="About" />
             </ListItem>
           </List>
