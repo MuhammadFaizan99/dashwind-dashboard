@@ -29,7 +29,9 @@ export default function Header() {
 
   return (
     <div className={HeaderStyles.header}>
-      <div className={HeaderStyles.logo}>Logo</div>
+      <div className={HeaderStyles.logo}>
+        <img src="../../../public/assets/logo.png" alt="Logo" />
+      </div>
       <div className={HeaderStyles.navButtons}>
         {windowWidth <= 700 ? (
           <div className={HeaderStyles.hamburgerMenu} onClick={toggleMenu}>

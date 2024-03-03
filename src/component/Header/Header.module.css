@@ -12,6 +12,10 @@
     color: rgb(227, 61, 89);
     font-weight: 500;
 }
+.logo img{
+    width: 160px;
+    height: 40px;
+}
 
 .navButtons {
     display: flex;

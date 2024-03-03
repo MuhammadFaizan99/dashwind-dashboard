@@ -1,0 +1,97 @@
+.faqLayout {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    max-width: 1200px; 
+    margin: 40px auto;
+  }
+  
+  .faqContainer {
+    width: 50%;
+    padding-right: 20px; 
+  }
+  .faqHeading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .faqSampleText {
+    margin-bottom: 20px; 
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .faqImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .faqImage img {
+    max-width: 100%;
+    height: auto;
+    max-height: 600px; 
+  }
+  
+  .faqItem {
+    margin-bottom: 10px;
+  }
+  
+  .faqQuestion {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f1900e;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  
+  .faqAnswer {
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    display: none;
+  }
+  
+  .faqAnswerOpen {
+    display: block;
+  }
+  
+  .icon {
+    /* Adjust the icon size if needed */
+    font-size: 24px;
+  }
+  
+  /* You can add additional media queries for better responsiveness */
+  @media (max-width: 768px) {
+    .faqLayout {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .faqContainer,
+    .faqImage {
+      width: 100%;
+    }
+  
+    .faqImage {
+      padding: 0;
+      margin-top: 20px;
+    }
+  }
+  
