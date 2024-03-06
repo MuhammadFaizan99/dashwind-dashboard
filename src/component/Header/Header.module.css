@@ -6,12 +6,6 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     font-family: "Poppins", sans-serif;
 }
-
-.logo {
-    font-size: 1.8rem;
-    color: rgb(227, 61, 89);
-    font-weight: 500;
-}
 .logo img{
     width: 160px;
     height: 40px;

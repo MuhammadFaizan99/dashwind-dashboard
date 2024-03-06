@@ -3,7 +3,7 @@
 .heroContainer {
     position: relative;
     height: 600px;
-    background-image: url('../../../public/assets/bg.webp');
+    background-image: url('../../../assets/bg.webp');
     background-size: cover;
     background-position: center;
     font-family: "Poppins", sans-serif;
