@@ -64,12 +64,12 @@ export default function Header() {
               <ListItem button component={Link} to="/about">
                 <ListItemText primary="About" />
               </ListItem>
-              <ListItem button component={Link} to="/contact">
+              {/* <ListItem button component={Link} to="/contact">
                 <ListItemText primary="Contact" />
               </ListItem>
               <ListItem button component={Link} to="/faq">
                 <ListItemText primary="FAQ" />
-              </ListItem>
+              </ListItem> */}
             </List>
           </div>
           {windowWidth <= 700 && (
