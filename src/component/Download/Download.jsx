@@ -8,18 +8,17 @@ export default function Download() {
     <div className={styles.container}>
       <div className={styles.card}>
         <div >
-            <h1 className={styles.title}>Download it now.</h1>
+            <h1 className={styles.title}>Create an Account.</h1>
         </div>
         <div className={styles.buttons}>
         <button className={`${styles.button} ${styles.appStoreButton}`}>
-            <Apple className={styles.buttonIcon}/> App Store 
+            <Apple className={styles.buttonIcon}/> Sign Up 
           </button>
           <button className={`${styles.button} ${styles.googlePlayButton}`}>
-            <Android className={styles.buttonIcon}/> Google Play 
+            <Android className={styles.buttonIcon}/> Login 
           </button>
         </div>
         <div className={styles.helperText}>
-          Add some helper text here to explain the finer details of your product or service.
         </div>
       </div>
     </div>

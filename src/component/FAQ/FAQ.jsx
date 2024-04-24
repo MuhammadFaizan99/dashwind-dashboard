@@ -3,10 +3,10 @@ import styles from './FAQ.module.css';
 import { ExpandMore, ExpandLess } from '@mui/icons-material';
 
 const faqs = [
-    { question: 'Can I book a same-day delivery?', answer: 'Yep, We get it — life happens and Taskers are here to help. Maybe you thought you’d make it to the pharmacy and something came up, or your friends are stopping by and you want some chips and guac — whatever the situation, there’s a Tasker for that.' },
-    { question: 'Can I schedule a contactless delivery?', answer: 'Answer for contactless delivery.' },
-    { question: 'Do I have to be home for pick-up/delivery?', answer: 'Answer for home presence during delivery.' },
-    { question: 'Can someone pick-up and deliver my take-out food?', answer: 'Answer for take-out food delivery.' },
+    { question: 'Do all shipments come with documentation?', answer: 'Yes, all shipments include the necessary documentation to ensure a smooth delivery and customs clearance, where applicable.' },
+    { question: 'Are all logistics are covered?', answer: 'Yes, our logistics services cover everything from warehousing to transportation, ensuring your goods are handled efficiently from start to finish.' },
+    { question: 'Where can I get support for account issues and questions?', answer: 'Currently, we do not offer international shipping. Our services are available domestically, focusing on providing the best possible delivery solutions within the country.' },
+    { question: 'Does YR Wholesale ship internationally ?', answer: 'Answer for take-out food delivery.' },
   ];
 
 export default function FAQ() {
