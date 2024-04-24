@@ -52,8 +52,11 @@
 }
 
 .appStoreButton,.googlePlayButton {
-    background-color: rgb(227, 61, 89); 
+    background-color: #1a1a1a; 
     color: #fff;
+}
+.appStoreButton:hover,.googlePlayButton:hover {
+    background-color: rgb(227, 61, 89); 
 }
 .buttonIcon{
     margin-right: 10px;
