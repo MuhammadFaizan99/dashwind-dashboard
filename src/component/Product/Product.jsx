@@ -5,8 +5,7 @@ export default function Product() {
   return (
     <div className={styles.mainProduct}>
       <p className={styles.topQuote}>
-        “My all-time favourite scent. It smells divine and lasts all day! A true
-        and beautiful rose fragrance.”
+      "An expansive array of wholesale offerings awaits you. From diverse products to superior quality, we cater to the needs of retailers seeking variety and excellence in their inventory."
       </p>
       <div className={styles.product}>
         <div className={styles.imageContainer}>
@@ -17,30 +16,24 @@ export default function Product() {
           />
         </div>
         <div className={styles.infoContainer}>
-          <h1 className={styles.title}>Pure Rose Essential Oil</h1>
-          <p className={styles.price}>$29.00</p>
+          <h1 className={styles.title}>Welcome to our Wholesale Emporium!</h1>
           <p className={styles.membership}>
-            Jetpack Membership Error: jetpack-membership
+            Why you should go with Y&R Wholesale?
           </p>
           <p className={styles.notice}>
-            No plan was configured for this button. Edit this post and confirm
-            that an existing payment plan is selected for this block.
+          You can streamline your wholesale procurement process by sourcing all your needs from one reliable supplier
           </p>
           <div className={styles.descriptionBlock}>
             <p className={styles.description}>
-              A soft, floral scent to calm the body and mind.
+              You can also request products for us to provide in our catalogs
             </p>
           </div>
           <p className={styles.shipping}>Shipping</p>
           <p className={styles.shippingNotice}>
-            We ship our products worldwide, with a few shipping rules.
+            We ship our products nationwide, with a few shipping rules.
           </p>
         </div>
       </div>
-      <p className={styles.bottomQuote}>
-        “Rose essential oil is known for its moisturizing, comforting, and
-        balancing properties.”
-      </p>
     </div>
   );
 }
